@@ -1,0 +1,48 @@
+body{
+    background-image: url(/1.png);
+    background-size: cover;
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-shadow: black 2px 2px;
+    
+}
+
+div{
+    display: inline-block;
+   
+}
+
+
+button{
+    border-radius: 10%;
+    border-style: none;
+    box-shadow: rgb(122, 122, 122) 5px 5px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+button:hover {
+    transform: scale(1.25)
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#UserCount{
+    color: blue;
+}
+#ComputerCount{
+    color: rgb(255, 0, 0);
+}
+
+#User{
+    margin-right: 20rem;
+}
